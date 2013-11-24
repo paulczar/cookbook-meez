@@ -8,5 +8,9 @@ gem "foodcritic"
 gem "strainer"
 gem "tailor"
 
+group :development do
+  gem 'guard'
+end
+
 #gem 'test-kitchen', :group => :integration
 #gem 'kitchen-vagrant', :group => :integration
