@@ -1,5 +1,6 @@
 # Strainerfile
-tailor: bundle exec tailor
+tailor:     bundle exec tailor
 knife test: bundle exec knife cookbook test $COOKBOOK
+rubocop:    bundle exec rubocop $COOKBOOK
 foodcritic: bundle exec foodcritic -f any $SANDBOX/$COOKBOOK
-chefspec: bundle exec rspec $SANDBOX/$COOKBOOK/spec
+chefspec:   bundle exec rspec $SANDBOX/$COOKBOOK/spec
